@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Yassine — Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1 id="name">Yassine</h1>
+      <div class="lang-switch">
+        <button onclick="setLang('en')">EN</button>
+        <button onclick="setLang('fr')">FR</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2 id="title-about">About</h2>
+      <p id="about-text">
+        Software developer passionate about building clean and efficient systems.
+      </p>
+    </section>
+
+    <section>
+      <h2 id="title-projects">Projects</h2>
+      <ul id="projects-list">
+        <li>Project 1 — description</li>
+        <li>Project 2 — description</li>
+        <li>Project 3 — description</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 id="title-contact">Contact</h2>
+      <p>Email: <a href="mailto:you@email.com">you@email.com</a></p>
+      <p>GitHub: <a href="https://github.com/tonpseudo" target="_blank">tonpseudo</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Yassine</p>
+  </footer>
+</body>
+</html>
