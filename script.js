@@ -1,5 +1,6 @@
 const translations = {
   en: {
+    disclaimerText: "This website is under construction",
     // Navigation
     navAbout: "About Me",
     navProjects: "Projects",
@@ -12,21 +13,24 @@ const translations = {
     skillFrontend: "Frontend",
     skillBackend: "Backend",
     skillTools: "Tools & Others",
-    experienceTitle: "Experience",
+    experienceTitle: "Experiences",
     exp1Title: "Software Designer",
-    exp1Company: "Luminator Rails",
+    exp1Company: "Luminator Technology Group - Rails division",
     exp1Date: "January 2025 - Present",
-    exp2Title: "Intern - Decision Support",
+    exp2Title: "Decision Support",
     exp2Company: "DRDC (Defence Research and Development Canada)",
     exp2Date: "May 2023 - April 2024",
     exp3Title: "Data Science Intern",
-    exp3Company: "Ministère des Forêts, de la Faune et des Parcs",
+    exp3Company: "Quebec Ministry of Forests, Wildlife and Parks",
     exp3Date: "May 2022 - August 2024",
     expDesc1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Designed and implemented software solutions with focus on user experience and scalability.",
     expDesc2: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Provided decision support solutions for continental defense operations.",
     expDesc3: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Applied data science techniques to analyze forestry and wildlife management datasets.",
     educationTitle: "Education",
-    eduDesc1: "University Name — Major in Software Engineering",
+    edu1Title: "Bachelor's Degree in Computer Engineering",
+    edu1Company: "Laval University",
+    edu1Date: "2025",
+    eduDesc1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Major in Software Engineering with focus on modern development practices.",
     
     // Projects Section
     projectsTitle: "Projects",
@@ -51,6 +55,7 @@ const translations = {
     footerText: "Made with passion by Yassine Majoul"
   },
   fr: {
+    disclaimerText: "Ce site web est en chantier",
     // Navigation
     navAbout: "À propos",
     navProjects: "Projets",
@@ -63,11 +68,11 @@ const translations = {
     skillFrontend: "Frontend",
     skillBackend: "Backend",
     skillTools: "Outils & Autres",
-    experienceTitle: "Expérience",
+    experienceTitle: "Expériences",
     exp1Title: "Concepteur logiciel",
-    exp1Company: "Luminator Rails",
+    exp1Company: "Luminator Technology Group - Division Rails",
     exp1Date: "Janvier 2025 - Présent",
-    exp2Title: "Stagiaire - Support à la prise de décision",
+    exp2Title: "Support à la prise de décision",
     exp2Company: "RDDC (Recherche et développement pour la défense du Canada)",
     exp2Date: "Mai 2023 - Avril 2024",
     exp3Title: "Stagiaire en sciences de données",
@@ -77,7 +82,10 @@ const translations = {
     expDesc2: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fourniture de solutions de soutien à la décision pour les opérations de défense continentale.",
     expDesc3: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Application de techniques de science des données pour analyser les ensembles de données de gestion des forêts et de la faune.",
     educationTitle: "Formation",
-    eduDesc1: "Nom de l'Université — Spécialisation en Génie Logiciel",
+    edu1Title: "Baccalauréat en Génie Informatique",
+    edu1Company: "Université Laval",
+    edu1Date: "2025",
+    eduDesc1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Majeure en Génie Logiciel avec accent sur les pratiques de développement modernes.",
     
     // Projects Section
     projectsTitle: "Projets",
@@ -140,6 +148,9 @@ function setLang(lang) {
   document.getElementById("exp-desc-2").innerText = t.expDesc2;
   document.getElementById("exp-desc-3").innerText = t.expDesc3;
   document.getElementById("title-education").innerText = t.educationTitle;
+  document.getElementById("edu-1-title").innerText = t.edu1Title;
+  document.getElementById("edu-1-company").innerText = t.edu1Company;
+  document.getElementById("edu-1-date").innerText = t.edu1Date;
   document.getElementById("edu-desc-1").innerText = t.eduDesc1;
   
   // Projects Section
